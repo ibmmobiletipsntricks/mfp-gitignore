@@ -1,0 +1,16 @@
+# NOTE: This list is unofficial and may not be suitable for every project.
+# Please consider it a starting point.
+
+# Partially based on this list:
+# http://pic.dhe.ibm.com/infocenter/wrklight/v5r0m5/index.jsp?topic=%2Fcom.ibm.worklight.help.doc%2Fdevref%2Fr_integrating_with_source_contro.html
+
+bin/*
+apps/*/android/native/www/*
+apps/*/android/native/bin/*
+apps/*/android/native/gen/*
+apps/*/blackberry/native/gen/*
+apps/*/i*/native/build/*
+apps/*/i*/native/www/*
+apps/*/i*/native/www/worklight.plist
+apps/*/i*/package/*
+apps/*/windowsphone8/native/*
