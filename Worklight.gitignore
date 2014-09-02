@@ -34,3 +34,6 @@ apps/*/i*/native/DerivedData
 apps/*/i*/native/*.hmap
 apps/*/i*/native/*.ipa
 apps/*/i*/native/*.xcuserstate
+
+# Injected by the WL 6.2 command-line tools
+apps/*/derby.log
