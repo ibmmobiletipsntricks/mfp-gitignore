@@ -1,4 +1,4 @@
 worklight-gitignore
 ===================
 
-.gitignore file for a Worklight Project
+This is an unofficial repository providing an initial/template .gitignore file for a Worklight Project.
