@@ -36,4 +36,4 @@ apps/*/i*/native/*.ipa
 apps/*/i*/native/*.xcuserstate
 
 # Injected by the WL 6.2 command-line tools
-apps/*/derby.log
+derby.log
