@@ -5,7 +5,7 @@
 # http://pic.dhe.ibm.com/infocenter/wrklight/v5r0m5/index.jsp?topic=%2Fcom.ibm.worklight.help.doc%2Fdevref%2Fr_integrating_with_source_contro.html
 
 bin
-apps/*/android/native/www
+apps/*/android/native/assets/www
 apps/*/android/native/bin
 apps/*/android/native/gen
 apps/*/blackberry/native/gen
