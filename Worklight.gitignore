@@ -4,16 +4,16 @@
 # Partially based on this list:
 # http://pic.dhe.ibm.com/infocenter/wrklight/v5r0m5/index.jsp?topic=%2Fcom.ibm.worklight.help.doc%2Fdevref%2Fr_integrating_with_source_contro.html
 
-bin/*
-apps/*/android/native/www/*
-apps/*/android/native/bin/*
-apps/*/android/native/gen/*
-apps/*/blackberry/native/gen/*
-apps/*/i*/native/build/*
-apps/*/i*/native/www/*
+bin
+apps/*/android/native/www
+apps/*/android/native/bin
+apps/*/android/native/gen
+apps/*/blackberry/native/gen
+apps/*/i*/native/build
+apps/*/i*/native/www
 apps/*/i*/native/www/worklight.plist
-apps/*/i*/package/*
-apps/*/windowsphone8/native/*
+apps/*/i*/package
+apps/*/windowsphone8/native
 
 # Adapted from
 # https://github.com/github/gitignore/blob/master/Objective-C.gitignore
