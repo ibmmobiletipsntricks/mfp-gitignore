@@ -1,7 +1,8 @@
 # NOTE: This list is unofficial and may not be suitable for every project.
 # Please consider it a starting point.
 
-# Partially based on this list:
+# Partially based on these lists:
+# http://pic.dhe.ibm.com/infocenter/wrklight/v6r1m0/index.jsp?topic=%2Fcom.ibm.worklight.dev.doc%2Fdevref%2Fr_integrating_with_source_contro.html
 # http://www-01.ibm.com/support/knowledgecenter/SSZH4A_6.2.0/com.ibm.worklight.dev.doc/devref/r_integrating_with_source_contro.html?lang=en
 
 bin
@@ -10,12 +11,16 @@ apps/*/android/native/bin
 apps/*/android/native/gen
 apps/*/blackberry*/native/gen
 apps/*/blackberry*/native/www
+apps/*/blackberry10/native/build
 apps/*/i*/native/build
+apps/*/i*/native/cordova
 apps/*/i*/native/www
 apps/*/i*/native/CordovaLib
 apps/*/i*/native/WorklightSDK
 apps/*/i*/package
-apps/*/windowsphone8/native/www
+apps/*/windowsphone*/native/Bin
+apps/*/windowsphone*/native/obj
+apps/*/windowsphone*/native/www
 
 # Adapted from
 # https://github.com/github/gitignore/blob/master/Objective-C.gitignore
