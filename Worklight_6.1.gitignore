@@ -1,7 +1,12 @@
+#
+# BEGIN mfp-gitignore rules
+# https://github.com/andrewferrier/mfp-gitignore
+#
+
 # NOTE: This list is unofficial and may not be suitable for every project.
 # Please consider it a starting point.
 
-# Partially based on these lists:
+# Project files, partially based on these lists:
 # http://pic.dhe.ibm.com/infocenter/wrklight/v6r1m0/index.jsp?topic=%2Fcom.ibm.worklight.dev.doc%2Fdevref%2Fr_integrating_with_source_contro.html
 
 bin
@@ -22,7 +27,7 @@ bin
 /apps/*/windowsphone*/native/obj
 /apps/*/windowsphone*/native/www
 
-# Adapted from
+# Native iphone/ipad files, adapted from:
 # https://github.com/github/gitignore/blob/master/Objective-C.gitignore
 
 /apps/*/i*/native/build/
@@ -41,3 +46,7 @@ bin
 /apps/*/i*/native/*.hmap
 /apps/*/i*/native/*.ipa
 /apps/*/i*/native/*.xcuserstate
+
+#
+# END mfp-gitignore rules
+#
