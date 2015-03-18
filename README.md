@@ -4,7 +4,8 @@ mfp-gitignore
 This is an unofficial repository providing an initial/template `.gitignore`
 file for an [IBM MobileFirst Platform
 Foundation](http://www-03.ibm.com/software/products/en/mobilefirstfoundation)
-Project. We are attempting to follow the same principles as GitHub's own
+Project. There is **no** official IBM support for these artifacts. 
+We are attempting to follow the same principles as GitHub's own
 [gitignore project](https://github.com/github/gitignore). We will gladly
 accept any pull request with corrections or clarifications (especially
 explanatory comments).
