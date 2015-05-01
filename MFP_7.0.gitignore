@@ -1,0 +1,57 @@
+#
+# BEGIN mfp-gitignore rules
+# https://github.com/andrewferrier/mfp-gitignore
+#
+
+# NOTE: This list is unofficial and may not be suitable for every project.
+# Please consider it a starting point.
+
+# Project files, partially based on these lists:
+# http://www-01.ibm.com/support/knowledgecenter/SSHS8R_7.0.0/com.ibm.worklight.dev.doc/devref/r_integrating_with_source_contro.html
+
+bin
+/apps/*/android/native/assets/www
+/apps/*/android/native/bin
+/apps/*/android/native/gen
+/apps/*/android/native/out
+/apps/*/blackberry*/native/gen
+/apps/*/blackberry*/native/www
+/apps/*/blackberry10/native/build
+/apps/*/i*/native/build
+/apps/*/i*/native/www
+/apps/*/i*/native/CordovaLib
+/apps/*/i*/native/WorklightSDK
+# sqlcipher.framework is re-added by `mfp build` if missing, and it's 30MB
+# Remove this line if it creates issues for your project
+/apps/*/i*/native/Frameworks/sqlcipher.framework
+/apps/*/i*/package
+/apps/*/windowsphone*/native/Bin
+/apps/*/windowsphone*/native/obj
+/apps/*/windowsphone*/native/www
+
+# Native iphone/ipad files, adapted from:
+# https://github.com/github/gitignore/blob/master/Objective-C.gitignore
+
+/apps/*/i*/native/build/
+/apps/*/i*/native/*.pbxuser
+!/apps/*/i*/native/default.pbxuser
+/apps/*/i*/native/*.mode1v3
+!/apps/*/i*/native/efault.mode1v3
+/apps/*/i*/native/*.mode2v3
+!/apps/*/i*/native/default.mode2v3
+/apps/*/i*/native/*.perspectivev3
+!/apps/*/i*/native/default.perspectivev3
+/apps/*/i*/native/xcuserdata
+/apps/*/i*/native/*.xccheckout
+/apps/*/i*/native/*.moved-aside
+/apps/*/i*/native/DerivedData
+/apps/*/i*/native/*.hmap
+/apps/*/i*/native/*.ipa
+/apps/*/i*/native/*.xcuserstate
+
+# Injected by the command-line tools
+derby.log
+
+#
+# END mfp-gitignore rules
+#
