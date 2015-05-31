@@ -14,7 +14,9 @@ Usage
 -----
 
 1. Include the contents of the appropriate `<VERSION>.gitignore` file in your `.gitignore` file, located at the root of your MFP project.
-1. Create an empty file named `.gitkeep` in the `server/java` directory.  MFP requires the `server/java` directory to be present, but Git does not check in empty directories.  The `.gitkeep` file ensures this directory is present when developers clone the Git repository.
+1. MFP requires some directories to be present, but Git does not check in empty directories.  `.gitkeep` files ensure these directories are present when developers clone the Git repository.  `.gitkeep` files should be created in the following directories:
+  1. `server/java`
+  2. `adapters/ADAPTER_NAME/lib` (for all **Java** adapters)
 
 *Note*: Prior to version 6.3, IBM MobileFirst Platform Foundation was known as
 [IBM Worklight
