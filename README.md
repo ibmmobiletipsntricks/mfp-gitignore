@@ -14,7 +14,7 @@ Usage
 -----
 
 1. Include the contents of the appropriate `<VERSION>.gitignore` file in your `.gitignore` file, located at the root of your MFP project.
-1. MFP requires some directories to be present, but Git does not check in empty directories.  `.gitkeep` files ensure these directories are present when developers clone the Git repository.  `.gitkeep` files should be created in the following directories:
+1. MFP requires some directories to be present, but Git does not check in empty directories.  [`.gitkeep`](http://stackoverflow.com/a/7229996/27641) files ensure these directories are present when developers clone the Git repository.  `.gitkeep` files should be created in the following directories:
   1. `server/java`
   2. `adapters/ADAPTER_NAME/lib` (for all **Java** adapters)
 
