@@ -6,12 +6,14 @@
 # NOTE: This list is unofficial and may not be suitable for every project.
 # Please consider it a starting point.
 
-# Project files, partially based on these lists:
-# http://www-01.ibm.com/support/knowledgecenter/SSHS8R_7.0.0/com.ibm.worklight.dev.doc/devref/r_integrating_with_source_contro.html
+# Temporary MFP Studio and Eclipse files
 
 .meta_data
 MobileFirstServerConfig
 RemoteSystemsTempFiles
+
+# Project files, partially based on these lists:
+# http://www-01.ibm.com/support/knowledgecenter/SSHS8R_7.0.0/com.ibm.worklight.dev.doc/devref/r_integrating_with_source_contro.html
 
 bin
 /apps/*/android/native/assets/www
