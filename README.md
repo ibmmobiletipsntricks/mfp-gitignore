@@ -20,7 +20,10 @@ Usage
   1. `server/java`
   2. `adapters/ADAPTER_NAME/lib` (for all **Java** adapters)
 
-*Note*: Prior to version 6.3, IBM MobileFirst Platform Foundation was known as
+Older Name - Worklight
+----------------------
+
+Prior to version 6.3, IBM MobileFirst Platform Foundation was known as
 [IBM Worklight
 Foundation](http://www-03.ibm.com/software/products/en/worklight-foundation),
 so there are equivalent `.gitignore` files here for versions 6.1 and 6.2. This
