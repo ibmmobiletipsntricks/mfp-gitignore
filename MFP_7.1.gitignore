@@ -20,7 +20,7 @@ bin
 /apps/*/i*/native/build
 /apps/*/i*/native/www
 /apps/*/i*/native/CordovaLib
-/apps/*/i*/native/WorklightSDK
+/apps/*/i*/native/Frameworks/IBMMobileFirstPlatformFoundationHybrid.framework
 # sqlcipher.framework is re-added by `mfp build` if missing, and it's 30MB
 # Remove this line if it creates issues for your project
 /apps/*/i*/native/Frameworks/sqlcipher.framework
