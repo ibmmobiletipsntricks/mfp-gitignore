@@ -8,9 +8,9 @@
 
 # Temporary MFP Studio and Eclipse files
 
-.meta_data
-MobileFirstServerConfig
-RemoteSystemsTempFiles
+/.meta_data
+/MobileFirstServerConfig
+/RemoteSystemsTempFiles
 
 # Project files, partially based on these lists:
 # http://pic.dhe.ibm.com/infocenter/wrklight/v6r1m0/index.jsp?topic=%2Fcom.ibm.worklight.dev.doc%2Fdevref%2Fr_integrating_with_source_contro.html
