@@ -7,7 +7,7 @@
 # Please consider it a starting point.
 
 # Project files, partially based on these lists:
-# http://www-01.ibm.com/support/knowledgecenter/SSHS8R_7.0.0/com.ibm.worklight.dev.doc/devref/r_integrating_with_source_contro.html
+# http://www-01.ibm.com/support/knowledgecenter/SSHS8R_7.1.0/com.ibm.worklight.dev.doc/devref/r_integrating_with_source_contro.html
 # (TODO: Update this link to 7.1 Knowledge Center)
 
 bin
@@ -21,7 +21,6 @@ bin
 /apps/*/i*/native/build
 /apps/*/i*/native/www
 /apps/*/i*/native/CordovaLib
-/apps/*/i*/native/Frameworks/IBMMobileFirstPlatformFoundationHybrid.framework
 # sqlcipher.framework is re-added by `mfp build` if missing, and it's 30MB
 # Remove this line if it creates issues for your project
 /apps/*/i*/native/Frameworks/sqlcipher.framework
